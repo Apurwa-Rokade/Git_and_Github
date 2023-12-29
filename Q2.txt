@@ -1,0 +1,27 @@
+Git Workflow Steps are below:
+
+1)Working on Files:
+Create or modify files in the working directory.
+
+2)Stage Changes:
+Use git add" to stage specific changes or files for the next commit.
+ This moves changes from the working directory to the staging area.
+
+ 3)
+ Review Changes:
+
+Use 'git status' to review the changes in the staging area and working directory.
+
+4)
+Commit Changes:
+Use 'git commit' to create a commit with the staged changes. This permanently stores the changes in the 
+repository, providing a snapshot of the project's state at that time.
+
+Visial representation:
+Working Directory -> Staging Area -> Repository
+  (git add)           (git commit)
+
+
+Untracked files exist only in the working directory.
+Staged files are ready to be committed and reside in the staging area.
+Committed files are stored as snapshots in the repository.
